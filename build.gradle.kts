@@ -24,7 +24,7 @@ gradlePlugin {
     website.set("https://github.com/Aaur1s")
     vcsUrl.set("https://github.com/Aaur1s/GradleProjectVersionPrinter")
     val declaration by plugins.creating {
-        id = "project-version-printer"
+        id = "$group.project-version-printer"
         implementationClass = "dev.aaur1s.version_printer.VersionPrinter"
         version = "1.0"
         description = "Gradle Plugin that adds task `printVersion` that prints project version before build"
