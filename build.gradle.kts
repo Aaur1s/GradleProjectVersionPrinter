@@ -21,7 +21,8 @@ dependencies {
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(8))
 
 gradlePlugin {
-    website.set("https://github.com/aaur1s")
+    website.set("https://github.com/Aaur1s")
+    vcsUrl.set("https://github.com/Aaur1s/GradleProjectVersionPrinter")
     val declaration by plugins.creating {
         id = "project-version-printer"
         implementationClass = "dev.aaur1s.version_printer.VersionPrinter"
