@@ -29,5 +29,6 @@ gradlePlugin {
         version = "1.0"
         description = "Gradle Plugin that adds task `printVersion` that prints project version before build"
         displayName = "Project Version Printer"
+        tags.addAll("version", "project", "print")
     }
 }
